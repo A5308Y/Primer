@@ -1,0 +1,41 @@
+#boxes {
+  margin: 30px;
+}
+
+.hour-box {
+  border: solid black 1px;
+  margin: 5px;
+  padding: 4px;
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  float: left;
+}
+
+.minute-box {
+  border: solid black 1px;
+  margin: 2px;
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  float: left;
+}
+
+.sleep {
+  background: green;
+}
+
+.work {
+  background: blue;
+}
+
+.entertainment {
+  background: red;
+}
